@@ -1,0 +1,92 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+
+\geometry{a4paper, margin=1in}
+\setlength{\headheight}{14pt}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=cyan,
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Excelerate Tulip Virtual Internship}
+\lhead{OEE Reporting Analysis: Week 1}
+\cfoot{\thepage}
+
+\title{OEE Reporting Analysis \& Insights: \\Moto Line Manufacturing\\
+{\large Tulip Application Development Virtual Intern}}
+\author{Pranav Verma}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction and Objectives}
+
+This report looks at how the Moto manufacturing line tracks its performance using Overall Equipment Effectiveness (OEE) reports. OEE is super important because it shows how well the machines are working. Right now, there are some problems with how the Moto line collects and shows this information. My goal in this report is to find these problems and suggest ways to fix them using the Tulip platform.
+
+\section{Current Problems with OEE Reporting}
+
+The way the Moto line currently handles OEE reporting has a bunch of issues that make it hard to get good information. One of the biggest problems is that workers have to enter a lot of data by hand. This takes time and people often make mistakes when typing things in. Also, they usually collect this information at the end of their work shift instead of as things happen, which means no one can see problems until it's too late to fix them.
+
+Another issue is that the information comes from too many different places. Some data comes from machines, some from quality checks, and some from other computer systems. Getting all this information together is really difficult and sometimes the data doesn't match up. Also, when something goes wrong, everyone uses different words to describe the problem, which makes it hard to figure out what's really happening.
+
+The reports themselves aren't very helpful either. They're just basic spreadsheets that don't let you click around to see more details. They only come out once a day or once a week, which isn't fast enough to fix problems as they happen. Plus, everyone gets the same report even though different people need different information. There aren't enough charts or graphs to make the information easy to understand.
+
+Because of these problems, the factory can't respond quickly to issues, people don't always trust the numbers, and it's hard to make good decisions about where to focus improvement efforts. Also, workers waste a lot of time making these reports when they could be doing more important things.
+
+\section{What Other Companies Do Better}
+
+I looked into what other manufacturing companies do for their OEE reporting, and they have some really good ideas we could use. Most successful companies make sure they're measuring OEE the same way across their whole factory. They clearly define what counts as "availability," "performance," and "quality" so everyone understands the numbers the same way.
+
+The best companies don't rely on people to enter data manually. Instead, they connect their computers directly to the machines to automatically collect information. They use things like sensors and barcode scanners to track production in real time. When they do need people to enter information, they make it super easy with touchscreens and simple menus so it doesn't take much time.
+
+For showing the information, modern companies don't use boring spreadsheets. They have interactive dashboards that update automatically as new information comes in. These dashboards look different depending on who's looking at them - operators see detailed machine information, while managers see big-picture trends. They use colors, gauges, and charts to make the information easy to understand quickly.
+
+The most advanced companies even have systems that send alerts when something goes wrong, so the right people can fix problems immediately. Some companies are starting to use computer programs that can predict when a machine might break down or when quality might start getting worse, based on patterns from the past.
+
+\section{How Tulip Can Help}
+
+The Tulip platform has a lot of cool features that could help fix the Moto line's OEE reporting problems. Tulip can connect directly to machines to gather information automatically, which would reduce mistakes and save time. It also lets you create custom screens for operators to enter information when needed, making it quick and easy.
+
+One of the best things about Tulip is that you can create interactive dashboards without needing to be a computer programmer. You can drag and drop different charts and displays to show the information that's most important. These dashboards update in real time, so everyone can see what's happening right now, not just what happened yesterday.
+
+Tulip is also really flexible, so it can be set up to match exactly how the Moto line works. It can connect with other computer systems that are already being used, and it can grow if the company adds more production lines later. Another great thing is that engineers can make changes to the system themselves without needing IT help every time.
+
+\section{Ideas for Improving OEE Reporting}
+
+Here are some ideas for how to make OEE reporting better for the Moto line using Tulip. First, we should connect Tulip directly to the most important machines on the line to automatically collect data. For machines that can't connect directly, we could add simple sensors to track when they're running and when they're stopped. We should also create easy-to-use screens for operators to quickly enter information that can't be collected automatically, like reasons for downtime.
+
+For showing the information, we should create different dashboards for different people. Operators need to see detailed information about their specific machines. Supervisors need to see how the whole line is performing and where the biggest problems are. Managers need to see trends over time and comparisons between different shifts or products.
+
+We should also set up automatic alerts when something goes wrong. For example, if a machine's performance drops below a certain level, the system could automatically notify the maintenance team. Or if quality starts getting worse, it could alert the quality control team right away.
+
+It would be good to connect the OEE system with other systems like maintenance records and quality inspection data. This would help everyone understand the relationships between different aspects of production. For example, we might discover that certain maintenance activities lead to better machine performance afterward.
+
+\section{Recommended Next Steps}
+
+Based on everything I've looked at, I think the best way to improve OEE reporting is to take it one step at a time. First, we should figure out exactly how we want to calculate OEE and make sure everyone agrees on the definitions. Then we should start collecting data automatically from a few key machines and create basic dashboards to show the information in real time.
+
+Once that's working well, we can expand to include more machines and create more detailed reports and alerts. Eventually, we could add more advanced features like predictive analytics that help prevent problems before they happen.
+
+For this approach to work, it's important to involve operators, supervisors, and managers in designing the new system. They know their jobs best and will have good ideas about what information they need. We should also start simple and add more features over time based on feedback, rather than trying to build everything at once.
+
+\section{Conclusion}
+
+The current OEE reporting system for the Moto line has several problems that make it hard for people to get good information and make smart decisions. By using Tulip's low-code platform, we can create a much better system that collects data automatically, shows it in easy-to-understand dashboards, and alerts people when problems occur.
+
+With these improvements, the Moto line will be able to identify and fix problems faster, make better decisions based on accurate data, and ultimately improve its overall equipment effectiveness. The key is to take a step-by-step approach, starting with the most important features and gradually adding more capabilities based on user feedback.
+
+\end{document}
