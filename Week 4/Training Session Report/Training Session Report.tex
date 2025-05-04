@@ -1,0 +1,265 @@
+\documentclass[12pt, letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{geometry}
+\usepackage{booktabs}
+\usepackage{tabularray}
+\usepackage{fancyhdr}
+
+\geometry{
+  a4paper,
+  total={170mm,257mm},
+  left=20mm,
+  top=20mm,
+}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Tulip OEE Application Training Session Report},
+    pdfpagemode=FullScreen,
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Moto IE Inc.}
+\lhead{Tulip OEE Application}
+\cfoot{\thepage}
+
+\title{\textbf{Tulip OEE Application Training Session Report}}
+\author{Moto IE Virtual Internship Program}
+\date{May 5, 2025}
+
+\begin{document}
+
+\maketitle
+
+\section*{Executive Summary}
+This report documents the mock training session conducted for the Customized Tulip OEE (Overall Equipment Effectiveness) Application on May 3, 2025. The training session was designed to evaluate the effectiveness of the training materials developed for Moto IE engineers and to gather feedback for improvements. The session successfully identified key areas for enhancement in both the video tutorials and written documentation, which have been addressed in the final training resource package.
+
+\section{Training Session Overview}
+
+\subsection{Session Details}
+\begin{tabular}{ll}
+\textbf{Date \& Time:} & May 3, 2025, 10:00 AM - 12:30 PM \\
+\textbf{Location:} & Moto IE Virtual Conference Room \\
+\textbf{Facilitator:} & Project Development Team \\
+\textbf{Participants:} & 6 Moto IE engineers (varying experience levels) \\
+\textbf{Format:} & Interactive demonstration with hands-on practice \\
+\end{tabular}
+
+\subsection{Session Structure}
+The mock training session was structured in three main segments:
+
+\begin{enumerate}
+    \item \textbf{Introduction (30 minutes)}
+    \begin{itemize}
+        \item Overview of the Tulip OEE application
+        \item Explanation of the customization features
+        \item Demonstration of the dashboard interface
+    \end{itemize}
+    
+    \item \textbf{Guided Practice (60 minutes)}
+    \begin{itemize}
+        \item Step-by-step walkthrough of key functionalities
+        \item Hands-on practice with customization features
+        \item Data visualization and interpretation exercises
+        \item Report generation and export practice
+    \end{itemize}
+    
+    \item \textbf{Feedback Collection (30 minutes)}
+    \begin{itemize}
+        \item Usability questionnaire
+        \item Open discussion for suggestions
+        \item Identification of pain points
+    \end{itemize}
+\end{enumerate}
+
+\section{Training Materials Tested}
+
+\subsection{Video Tutorials}
+Four tutorial videos were shown during the session:
+\begin{enumerate}
+    \item \textbf{Tulip OEE Dashboard Navigation} (4:15 minutes)
+    \item \textbf{Customizing OEE Reports} (5:30 minutes)
+    \item \textbf{Data Visualization Features} (3:45 minutes)
+    \item \textbf{Troubleshooting Common Issues} (4:00 minutes)
+\end{enumerate}
+
+\subsection{Written Training Manual}
+The draft training manual covered:
+\begin{itemize}
+    \item Introduction to OEE metrics and the Tulip platform
+    \item System navigation and user interface
+    \item Step-by-step customization procedures
+    \item Advanced reporting features
+    \item Troubleshooting guide with common error resolutions
+\end{itemize}
+
+\section{Feedback Summary}
+
+\subsection{Quantitative Feedback}
+Participants rated various aspects of the training materials on a scale of 1-5:
+
+\begin{table}[ht]
+\centering
+\begin{tblr}{
+  colspec = {X[1,c] X[3,l] X[1,c]},
+  row{1} = {font=\bfseries},
+  hlines,
+}
+Score & Aspect & Average Rating \\
+Clarity of instructions & & 4.2 \\
+Comprehensiveness & & 3.8 \\
+Ease of navigation & & 4.0 \\
+Video tutorial quality & & 4.3 \\
+Written manual usefulness & & 3.6 \\
+Troubleshooting guidance & & 3.5 \\
+\end{tblr}
+\caption{Training Material Ratings}
+\end{table}
+
+\subsection{Qualitative Feedback}
+\subsubsection{Strengths Identified}
+\begin{itemize}
+    \item Video tutorials were praised for clear narration and visual guidance
+    \item Step-by-step approach to complex features was appreciated
+    \item Real-world examples helped contextualize the application's capabilities
+    \item Interface overview was comprehensive and well-structured
+\end{itemize}
+
+\subsubsection{Areas for Improvement}
+\begin{itemize}
+    \item More detailed troubleshooting scenarios were requested
+    \item Some customization options needed more in-depth explanation
+    \item Navigation between different sections of the application required clarification
+    \item Additional examples of data interpretation would be beneficial
+    \item Written manual needed more visual aids and screenshots
+\end{itemize}
+
+\section{Challenges Encountered}
+
+\subsection{Technical Challenges}
+\begin{itemize}
+    \item Two participants experienced difficulty connecting to the demo environment
+    \item One participant encountered a browser compatibility issue with the Tulip interface
+    \item Some advanced customization features loaded slowly during demonstration
+\end{itemize}
+
+\subsection{Comprehension Challenges}
+\begin{itemize}
+    \item Engineers with limited data analysis background required additional explanation of OEE metrics
+    \item Correlation between machine data inputs and report outputs needed clearer connection
+    \item API integration section was too technical for some participants
+\end{itemize}
+
+\section{Solutions Implemented}
+
+\subsection{Technical Solutions}
+\begin{itemize}
+    \item Added browser compatibility guide to the training manual
+    \item Created a pre-training checklist for system requirements
+    \item Optimized demonstration environment for better performance
+    \item Added dedicated section on network configuration
+\end{itemize}
+
+\subsection{Content Solutions}
+\begin{itemize}
+    \item Expanded the OEE metrics explanation with industry-standard definitions
+    \item Created additional visualization examples with annotated explanations
+    \item Developed a simplified workflow diagram connecting data inputs to report outputs
+    \item Reorganized the API section with more basic explanations and gradual complexity
+    \item Added more screenshots and visual guidance throughout the manual
+\end{itemize}
+
+\section{Training Material Improvements}
+
+\subsection{Video Tutorial Enhancements}
+\begin{itemize}
+    \item Added timestamp markers for easier navigation
+    \item Created two additional videos focusing on advanced customization
+    \item Reduced technical jargon and simplified explanations
+    \item Included more on-screen annotations highlighting key interface elements
+    \item Added a separate video on data interpretation and analysis
+\end{itemize}
+
+\subsection{Written Manual Enhancements}
+\begin{itemize}
+    \item Reorganized content for more logical flow
+    \item Increased visual aids by 40\% with annotated screenshots
+    \item Created quick-reference tables for common settings
+    \item Added color-coded troubleshooting decision trees
+    \item Expanded FAQ section based on common questions during training
+    \item Included a glossary of technical terms
+\end{itemize}
+
+\section{Future Training Recommendations}
+
+\subsection{Immediate Recommendations}
+\begin{itemize}
+    \item Conduct follow-up sessions two weeks after initial training
+    \item Create a dedicated Slack channel for ongoing support
+    \item Implement monthly update videos for new features
+    \item Develop role-specific training paths (basic user vs. advanced analyst)
+\end{itemize}
+
+\subsection{Long-term Recommendations}
+\begin{itemize}
+    \item Develop interactive e-learning modules
+    \item Create a knowledge base with searchable content
+    \item Implement user certification program
+    \item Establish peer mentoring system for internal knowledge transfer
+\end{itemize}
+
+\section{Conclusion}
+The mock training session provided valuable insights into the effectiveness of the Tulip OEE Application training materials. Participants were generally satisfied with the clarity and comprehensiveness of the resources, but identified specific areas for improvement, particularly in troubleshooting guidance and visual aids. These insights have been incorporated into the final training resource package, resulting in more accessible and comprehensive training materials.
+
+The enhanced training package now includes additional video tutorials, expanded written documentation with more visual aids, and a more robust troubleshooting guide. These improvements will ensure that Moto IE engineers can effectively utilize and maintain the customized Tulip OEE application, leading to improved operational efficiency and data-driven decision-making.
+
+\section*{Appendices}
+
+\subsection*{Appendix A: Participant Demographics}
+\begin{table}[ht]
+\centering
+\begin{tblr}{
+  colspec = {X[1,c] X[2,l] X[2,l]},
+  row{1} = {font=\bfseries},
+  hlines,
+}
+ID & Role & Experience Level \\
+P1 & Process Engineer & Advanced (5+ years) \\
+P2 & Manufacturing Engineer & Intermediate (2-5 years) \\
+P3 & Production Supervisor & Beginner (<2 years) \\
+P4 & Quality Assurance Engineer & Intermediate (2-5 years) \\
+P5 & Maintenance Technician & Beginner (<2 years) \\
+P6 & Operations Manager & Advanced (5+ years) \\
+\end{tblr}
+\caption{Training Session Participant Profiles}
+\end{table}
+
+\subsection*{Appendix B: Detailed Feedback Responses}
+
+\begin{table}[ht]
+\centering
+\begin{tblr}{
+  colspec = {X[1,c] X[3,l] X[3,l]},
+  row{1} = {font=\bfseries},
+  hlines,
+}
+ID & Strengths Noted & Improvement Suggestions \\
+P1 & Clear explanation of advanced features & Need more API integration examples \\
+P2 & Appreciated real-time data examples & More screenshots in troubleshooting section \\
+P3 & Step-by-step approach was helpful & Simplify technical terminology \\
+P4 & Video quality and pacing were good & Add more quality metrics interpretation \\
+P5 & Troubleshooting section was practical & Expand basic navigation explanations \\
+P6 & Comprehensive coverage of features & Include more executive summary reports \\
+\end{tblr}
+\caption{Individual Feedback Summary}
+\end{table}
+
+\end{document}
